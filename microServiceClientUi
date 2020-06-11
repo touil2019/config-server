@@ -1,0 +1,7 @@
+server.port=9092
+
+spring.main.allow-bean-definition-overriding=true
+
+management.endpoints.web.exposure.include=*
+
+eureka.client.serviceUrl.defaultZone: http://localhost:9102/eureka/
